@@ -1,0 +1,23 @@
+{% extends 'base_login_register.html.twig' %}
+
+{% block body %}
+    <h1>Register</h1>
+
+    {{ form_start(registrationForm) }}
+        <div>
+            {{ form_widget(registrationForm.email, {'attr':{'class':''}}) }}
+            {{ form_errors(registrationForm.email) }}
+        </div>
+        <div>
+            {{ form_widget(registrationForm.plainPassword.first, {'attr':{'class':''}}) }}
+            {{ form_errors(registrationForm.plainPassword.first)}}       
+        </div>
+        <div>
+            {{ form_widget(registrationForm.plainPassword.second, {'attr':{'class':''}})}}
+            {{ form_errors(registrationForm.plainPassword.second)}}
+        </div>
+        <div>
+            <button type="submit" class="btn">Register</button>
+        </div>
+    {{ form_end(registrationForm) }}
+{% endblock %}
