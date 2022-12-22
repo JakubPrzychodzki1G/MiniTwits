@@ -1,0 +1,11 @@
+php/Dockerfile
+nginx/default.conf
+app_new_third.zip
+docker-compose.yml
+Dockerfile
+app/public/uploads/backgroundImages/Bez-tytulu-639649727e295.png
+app/public/uploads/backgroundImages/IMG-20181116-100111-BURST020-63971df0d6334.jpg
+app/public/uploads/avatars/53520571-567199400447944-4590729666104393728-n-639649727a1f5.jpg
+app/public/uploads/avatars/Bez-tytulu-639649727e295.png
+app/public/uploads/avatars/IMG-20180819-202240-63971df0cffd2.jpg
+app/public/uploads/avatars/IMG-20181116-100111-BURST003-63964e44a1edf.jpg
